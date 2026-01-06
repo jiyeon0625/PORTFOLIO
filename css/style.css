@@ -874,7 +874,12 @@ header button {
     gap: 0.5rem;
 }
 
+.design .itembox img:hover {
+    border: 8px solid #89B5D4;
+}
+
 .design .itembox img {
+    box-shadow: 3px 3px 2px rgba(143, 143, 143, 0.329);
     width: 250px;
     object-fit: cover;
     border-radius: 3em;
